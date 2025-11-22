@@ -18,7 +18,6 @@ void cadastro(livro *a){
             printf("Quantidade nao aceita, digite novamente: ");
         }
     }
-    getchar();
 }
 void visualizar(livro a){
     printf("Livro: %s",a.nome);
